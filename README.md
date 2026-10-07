@@ -91,7 +91,7 @@ asyncio.run(main())
 - Auth over a live HTTP connection was also checked manually: no token is rejected, a read-only
   token cannot write, and a read/write token succeeds. There is no automated test for the live
   HTTP path yet.
-- Developed and tested with Python 3.12 and FastMCP 4.0.x.
+- Tested with Python 3.12 and 3.14 and FastMCP 4.0.x.
 
 ## Limitations
 
